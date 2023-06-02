@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class HelloControllerIT {
 
   @Autowired
-  private TestRestTemplate template;
+  TestRestTemplate template;
 
   @Test
   public void getHello() {
